@@ -1,0 +1,747 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>manga jagers | clothing</title>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<script src="js/jquery.min.js"></script>
+<script type="text/javascript">
+        $(document).ready(function() {
+            $(".dropdown img.flag").addClass("flagvisibility");
+
+            $(".dropdown dt a").click(function() {
+                $(".dropdown dd ul").toggle();
+            });
+                        
+            $(".dropdown dd ul li a").click(function() {
+                var text = $(this).html();
+                $(".dropdown dt a span").html(text);
+                $(".dropdown dd ul").hide();
+                $("#result").html("Selected value is: " + getSelectedValue("sample"));
+            });
+                        
+            function getSelectedValue(id) {
+                return $("#" + id).find("dt a span.value").html();
+            }
+
+            $(document).bind('click', function(e) {
+                var $clicked = $(e.target);
+                if (! $clicked.parents().hasClass("dropdown"))
+                    $(".dropdown dd ul").hide();
+            });
+
+
+            $("#flagSwitcher").click(function() {
+                $(".dropdown img.flag").toggleClass("flagvisibility");
+            });
+        });
+     </script>
+    
+	<script type="text/javascript" src="js/jquery.fancybox.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css" media="screen" />
+   <script type="text/javascript">
+		$(document).ready(function() {
+			
+			
+
+			$('.fancybox').fancybox();
+
+		});
+	</script>
+</head>
+<body>
+	<div class="header">
+		<div class="container">
+			<div class="row">
+			  <div class="col-md-12">
+				 <div class="header-left">
+					 <div class="logo">
+						<a href="index.html"><img src="images/home-5-64.png" height="50" width="50" alt=""/></a>
+					 </div>
+					 <div class="menu">
+						  <a class="toggleMenu" href="#"><img src="images/nav.png" alt="" /></a>
+						    <ul class="nav" id="nav">
+						    	<li><a href="shop.html">manga</a></li>
+						    	<li><a href="team.html">figures</a></li>
+						    	
+						    	<li class="current"><a href="experiance.html">clothing</a></li>
+						    	<li><a href="accessories.html">accessories</a></li>
+								<li><a href="contact.html">art supplies</a></li>								
+								<div class="clear"></div>
+							</ul>
+							<script type="text/javascript" src="js/responsive-nav.js"></script>
+				    </div>							
+	    		    <div class="clear"></div>
+	    	    </div>
+	            <div class="header_right">
+	    		  <!-- start search-->
+				   <div class="search-box">
+							<div id="sb-search" class="sb-search">
+								<form>
+									<input class="sb-search-input" placeholder="Enter your search term..." type="search" name="search" id="search">
+									<input class="sb-search-submit" type="submit" value="">
+									<span class="sb-icon-search"> </span>
+								</form>
+							</div>
+						</div>
+						<!----search-scripts---->
+						<script src="js/classie.js"></script>
+						<script src="js/uisearch.js"></script>
+						<script>
+							new UISearch( document.getElementById( 'sb-search' ) );
+						</script>
+				   
+						  </div>
+						  <div class="clear"></div>
+						</ul>
+					 </li>
+				   </ul>
+		        <div class="clear"></div>
+	       </div>
+	      </div>
+		 </div>
+	    </div>
+	  </div>
+	  <div class="main">
+		<div class="shop_top">
+		  <div class="container">
+			  <div class="row shop_box-top">
+				  <div class="col-md-3 shop_box">
+					  <img src="images/96584564_2589527391362706_7115083155649394828_n.jpg" class="img-responsive" alt=""/>
+					  <span class="new-box">
+						  
+					  </span>
+					  <span class="sale-box">
+						  
+					  </span>
+					  <div class="shop_desc">
+						  <h3><a href="#"><h3><font color=#ff5202> demon Slayer shirts</a></h3>
+						  
+						  
+						  <span class="actual"><h3><font color=#ff5202>Da 3500</span><br>
+							  
+						  </ul>
+					  </div>
+				  </a></div>
+				  <div class="col-md-3 shop_box">
+					  <img src="images/96025389_239338060672410_2107354532414941126_n.jpg" class="img-responsive" alt=""/>
+					  <span class="new-box">
+						  
+					  </span>
+					  <div class="shop_desc">
+						  <h3><a href="#"><h3><font color=#ff5202>bakugo shirt</a></h3>
+						  
+						  <span class="actual"><font color=#ff5202>Da 3500</span><br>
+						  
+							  
+						  </ul>
+					  </div>
+				  </a></div>
+				  <div class="col-md-3 shop_box">
+					  <img src="images/96943953_2920836267997217_6358316360666578550_n.jpg" class="img-responsive" alt=""/>
+					  <span class="new-box">
+					  
+					  </span>
+					  
+						  
+					  </span>
+					  <div class="shop_desc">
+						  
+						  
+							  <h3><a href="#"><h3><font color=#ff5202>3D shirts</a></h3>
+						  
+							  
+						  
+						  <span class="actual"><h3><font color=#ff5202>Da 4200</span><br>
+						  <ul class="buttons">
+							   </div>
+						  </ul>
+				  </a></div>
+				  <div class="col-md-3 shop_box">
+					  <img src="images/96826636_669857100533664_3174921765685434812_n.jpg" class="img-responsive" alt=""/>
+					  <span class="new-box">
+						  <span class="new-label">New</span>
+					  </span>
+					  <div class="shop_desc">
+						  <h3><a href="#"><h3><font color=#ff5202>mista shirt</a></h3>
+						  
+						  
+						  <span class="actual"><h3><font color=#ff5202>Da 2900</span><br>
+						  <ul class="buttons">
+							  
+						  </ul>
+					  </div>
+				  </a></div>
+			  </div>
+			  <div class="row">
+				  <div class="col-md-3 shop_box">
+					  <img src="images/97305858_523949821605954_8063737858104754439_n.jpg" class="img-responsive" alt=""/>
+					  <span class="new-box">
+						  
+					  </span>
+					  <div class="shop_desc">
+						  <h3><a href="#"><h3><font color=#ff5202>jojo shirt</a></h3>
+						  
+						  <span class="actual"><h3><font color=#ff5202>Da 2900</span><br>
+						  <ul class="buttons">
+							  
+						  </ul>
+					  </div>
+				  </a></div>
+				  <div class="col-md-3 shop_box">
+					  <img src="images/96682543_107045934346581_5451700853934652376_n.jpg" class="img-responsive" alt=""/>
+					  <span class="new-box">
+						  <span class="new-label">New</span>
+					  </span>
+  
+					  </span>
+					  <div class="shop_desc">
+						  <h3><a href="#"><h3><font color=#ff5202>over sized anime girl shirt</a></h3>
+						  
+						  <span class="actual"><h3><font color=#ff5202>Da 3200</span><br>
+						  <ul class="buttons">
+							  
+						  </ul>
+					  </div>
+				  </a></div>
+				  <div class="col-md-3 shop_box">
+					  <img src="images/97249867_155002869395711_400208124657576927_n.jpg" class="img-responsive" alt=""/>
+					  </span>
+					  <div class="shop_desc">
+						  <h3><a href="#"><h3><font color=#ff5202>Rem & Ram coplay</a></h3>
+												  
+						  <span class="actual"><h3><font color=#ff5202>Da 9900</span><br>
+						  
+						  </ul>
+					  </div>
+				  </a></div>
+				  <div class="col-md-3 shop_box">
+					  <img src="images/98065453_496727567709010_3006107804791891301_n.jpg" class="img-responsive" alt=""/>
+					  
+					  </span>
+					  <div class="shop_desc">
+						  <h3><a href="#"><h3><font color=#ff5202>tokyo ghoul </a></h3>
+						  
+						  <span class="actual"><h3><font color=#ff5202>Da 2700</span><br>
+						  
+						  
+					  </div>
+				  </a></div>
+			  </div>
+			  <div class="row">
+				  <div class="col-md-3 shop_box">
+					  <img src="images/101977442_276304683776863_3904196305775094644_n.jpg" class="img-responsive" alt=""/>
+					  <span class="new-box">
+						  
+					  </span>
+					  <div class="shop_desc">
+						  <h3><a href="#"><h3><font color=#ff5202>anime girl shirt</a></h3>
+						  
+						  <span class="actual"><h3><font color=#ff5202>Da 3700</span><br>
+						  <ul class="buttons">	
+  
+					  
+					  
+						  </ul>
+					  </div>
+				  </a></div>
+						  <div class="col-md-3 shop_box">
+							  <img src="images/98175411_154455549513390_4163212812828735366_n.jpg" class="img-responsive" alt=""/>
+							  <span class="new-box">
+								  
+							  </span>
+							  <div class="shop_desc">
+								  <h3><a href="#"><h3><font color=#ff5202>naruto</a></h3>
+								  
+								  <span class="actual"><h3><font color=#ff5202>Da 2700</span><br>
+								  <ul class="buttons">
+									  
+								  </ul>
+							  </div>
+						  </a></div>
+								  <div class="col-md-3 shop_box">
+									  <img src="images/100512487_2634778253447104_7897759608497772517_n.jpg" class="img-responsive" alt=""/>
+									  <span class="new-box">
+										  
+									  </span>
+									  <div class="shop_desc">
+										  <h3><a href="#"><h3><font color=#ff5202>kimonos </a></h3>
+										  
+										  <span class="actual"><h3><font color=#ff5202>Da ?</span><br>
+										  <ul class="buttons">
+											  
+										  </ul>
+									  </div>
+								  </a></div>
+										  <div class="col-md-3 shop_box">
+											  <img src="images/101941586_126768072370357_3973200228356254392_n (1).jpg" class="img-responsive" alt=""/>
+											  <span class="new-box">
+												  
+											  </span>
+											  <div class="shop_desc">
+												  <h3><a href="#"><h3><font color=#ff5202>Naruto hoodies</a></h3>
+												  
+												  <span class="actual"><h3><font color=#ff5202>Da 6700</span><br>
+												  <ul class="buttons">
+												  
+								  </div>
+							  </a></div>
+						  </div>
+						  <div class="row">
+							  <div class="col-md-3 shop_box">
+								  <img src="images/103066539_3308909705827047_5075216824802933278_n.jpg" class="img-responsive" alt=""/>
+								  <span class="new-box">
+													  
+								  </span>
+								  <div class="shop_desc">
+									  <h3><a href="#"><h3><font color=#ff5202>Oversized one piece shirts</a></h3>
+									  
+									  <span class="actual"><h3><font color=#ff5202>Da 3600</span><br>
+									  <ul class="buttons">	
+   
+								  </ul>
+							  </div>
+						  </a></div>
+								  <div class="col-md-3 shop_box">
+									  <img src="images/103400958_269693894098746_8999508813899480500_n.jpg" class="img-responsive" alt=""/>
+									  <span class="new-box">
+										  
+									  </span>
+									  <div class="shop_desc">
+										  <h3><a href="#"><h3><font color=#ff5202>lemon shoes</a></h3>
+										  
+										  <span class="actual"><h3><font color=#ff5202>Da 6800</span><br>
+										  <ul class="buttons">
+										  </ul>
+									  </div>
+								  </a></div>
+										  <div class="col-md-3 shop_box">
+											  <img src="images/84086007_1440409716167717_1448989404654788299_n.jpg" class="img-responsive" alt=""/>
+											  <span class="new-box">
+												  
+											  </span>
+											  <div class="shop_desc">
+												  <h3><a href="#"><h3><font color=#ff5202>anime girl shoes</a></h3>
+												  
+												  <span class="actual"><h3><font color=#ff5202>Da 6700</span><br>
+												  <ul class="buttons">
+													  
+												  </ul>
+											  </div>
+										  </a></div>
+												  <div class="col-md-3 shop_box">
+													  <img src="images/104480643_2710987245813520_6087538279383286226_n.jpg" class="img-responsive" alt=""/>
+													  <span class="new-box">
+														  
+													  </span>
+													  <div class="shop_desc">
+														  <h3><a href="#"><h3><font color=#ff5202>zero two shirt</a></h3>
+														  
+														  <span class="actual"><h3><font color=#ff5202>Da 2700</span><br>
+														  <ul class="buttons">
+														  
+														  </div>
+													  </a></div>
+												  </div>
+												  <div class="row">
+													  <div class="col-md-3 shop_box">
+														  <img src="images/104249406_196774908292649_4388532332073368601_n.jpg" class="img-responsive" alt=""/>
+														  <span class="new-box">
+																			  
+														  </span>
+														  <div class="shop_desc">
+															  <h3><a href="#"><h3><font color=#ff5202>anime shirt </a></h3>
+															  
+															  <span class="actual"><h3><font color=#ff5202><h3>Da 2700</span><br>
+															  <ul class="buttons">
+															  </ul>
+															</ul>
+														</div>
+													</a></div>
+													<div class="col-md-3 shop_box">
+														<img src="images/104163299_315662732782107_8041929654715737500_n.jpg" class="img-responsive" alt=""/>
+														<span class="new-box">
+															
+														</span>
+														<div class="shop_desc">
+															<h3><a href="#"><h3><font color=#ff5202>t-shirt</a></h3>
+															
+															<span class="actual"><font color=#ff5202>Da 2700</span><br>
+															
+																
+															</ul>
+														</div>
+													</a></div>
+													<div class="col-md-3 shop_box">
+														<img src="images/104826181_3504442856256891_8244476004689808052_n.jpg" class="img-responsive" alt=""/>
+														<span class="new-box">
+														
+														</span>
+														
+															
+														</span>
+														<div class="shop_desc">
+															
+															
+																<h3><a href="#"><h3><font color=#ff5202>naruto shirts</a></h3>
+															
+																
+															
+															<span class="actual"><h3><font color=#ff5202>Da 2700</span><br>
+															<ul class="buttons">
+																 </div>
+															</ul>
+													</a></div>
+													<div class="col-md-3 shop_box">
+														<img src="images/104317073_264336281508788_259039548287052904_n.jpg" class="img-responsive" alt=""/>
+														<span class="new-box">
+															<span class="new-label">New</span>
+														</span>
+														<div class="shop_desc">
+															<h3><a href="#"><h3><font color=#ff5202>t-shirt</a></h3>
+															
+															
+															<span class="actual"><h3><font color=#ff5202>Da 1700</span><br>
+															<ul class="buttons">
+																
+															</ul>
+														</div>
+													</a></div>
+												</div>
+												<div class="row">
+													<div class="col-md-3 shop_box">
+														<img src="images/104338464_265515797855816_5989570328803875057_n.jpg" class="img-responsive" alt=""/>
+														<span class="new-box">
+															
+														</span>
+														<div class="shop_desc">
+															<h3><a href="#"><h3><font color=#ff5202>gara shirt</a></h3>
+															
+															<span class="actual"><h3><font color=#ff5202>Da 3300</span><br>
+															<ul class="buttons">
+																
+															</ul>
+														</div>
+													</a></div>
+													<div class="col-md-3 shop_box">
+														<img src="images/106131309_107849737557425_710613068189889153_n.jpg" class="img-responsive" alt=""/>
+														<span class="new-box">
+															<span class="new-label">New</span>
+														</span>
+									
+														</span>
+														<div class="shop_desc">
+															<h3><a href="#"><h3><font color=#ff5202>Oversized Itachi shirt</a></h3>
+															
+															<span class="actual"><h3><font color=#ff5202>Da 4600</span><br>
+															<ul class="buttons">
+																
+															</ul>
+														</div>
+													</a></div>
+													<div class="col-md-3 shop_box">
+														<img src="images/116789410_336566067367491_2656604778306650529_n.jpg" class="img-responsive" alt=""/>
+														</span>
+														<div class="shop_desc">
+															<h3><a href="#"><h3><font color=#ff5202>Boku no hero shirt</a></h3>
+																					
+															<span class="actual"><h3><font color=#ff5202>Da ?</span><br>
+						</ul>
+					</div>															
+				</a></div>
+				<div class="col-md-3 shop_box">
+					<img src="images/125531637_732702850660208_2807162853426781802_n.jpg" class="img-responsive" alt=""/>
+					<span class="new-box">
+						<span class="new-label">New</span>
+					</span>
+					<div class="shop_desc">
+						<h3><a href="#"><h3><font color=#ff5202>full long kimonos</a></h3>
+						
+						
+						<span class="actual"><h3><font color=#ff5202>Da 8300</span><br>
+						<ul class="buttons">
+							
+					    </ul>
+				    </div>
+				</a></div>
+			</div>
+			<div class="row">
+				<div class="col-md-3 shop_box">
+					<img src="images/129395283_3795259450506153_3587557833037264281_n.jpg" class="img-responsive" alt=""/>
+					<span class="new-box">
+						
+					</span>
+					<div class="shop_desc">
+						<h3><a href="#"><h3><font color=#ff5202>hunter x hunter hoodies</a></h3>
+						
+						<span class="actual"><h3><font color=#ff5202>Da 3300</span><br>
+						<ul class="buttons">
+							
+					    </ul>
+				    </div>
+				</a></div>
+				<div class="col-md-3 shop_box">
+					<img src="images/129095990_298745571519452_1778975188348546360_n.jpg" class="img-responsive" alt=""/>
+					<span class="new-box">
+						<span class="new-label">New</span>
+					</span>
+
+					</span>
+					<div class="shop_desc">
+						<h3><a href="#"><h3><font color=#ff5202>boku no hero hoodies</a></h3>
+						
+						<span class="actual"><h3><font color=#ff5202>Da 3300</span><br>
+						<ul class="buttons">
+							
+					    </ul>
+				    </div>
+				</a></div>
+				<div class="col-md-3 shop_box">
+					<img src="images/128858284_787653565428061_2749104167215807710_n.jpg" class="img-responsive" alt=""/>
+					</span>
+					<div class="shop_desc">
+						<h3><a href="#"><h3><font color=#ff5202>naruto hoodies</a></h3>
+												
+						<span class="actual"><h3><font color=#ff5202>Da 3300</span><br>
+						
+					    </ul>
+				    </div>
+				</a></div>
+				<div class="col-md-3 shop_box">
+					<img src="images/129070954_741220323407360_5310872544080305741_n.jpg" class="img-responsive" alt=""/>
+					
+					</span>
+					<div class="shop_desc">
+						<h3><a href="#"><h3><font color=#ff5202>hunter x hunter hoodies </a></h3>
+						
+						<span class="actual"><h3><font color=#ff5202>Da 3300</span><br>
+						
+						
+				    </div>
+				</a></div>
+			</div>
+			<div class="row">
+				<div class="col-md-3 shop_box">
+					<img src="images/132212869_673528686655333_2060142081932021257_n.jpg" class="img-responsive" alt=""/>
+					<span class="new-box">
+						
+					</span>
+					<div class="shop_desc">
+						<h3><a href="#"><h3><font color=#ff5202>custom naruto airforce</a></h3>
+						
+						<span class="actual"><h3><font color=#ff5202>Da 5000</span><br>
+						<ul class="buttons">	
+
+					
+					
+				        </ul>
+				    </div>
+				</a></div>
+						<div class="col-md-3 shop_box">
+							<img src="images/132033245_2506619369644945_1534575947852162390_n.jpg" class="img-responsive" alt=""/>
+							<span class="new-box">
+								
+							</span>
+							<div class="shop_desc">
+								<h3><a href="#"><h3><font color=#ff5202>custom sailor moon airforce</a></h3>
+								
+								<span class="actual"><h3><font color=#ff5202>Da 5000</span><br>
+								<ul class="buttons">
+									
+								</ul>
+							</div>
+						</a></div>
+								<div class="col-md-3 shop_box">
+									<img src="images/130854070_3942172525805526_5612059205791501587_n.jpg" class="img-responsive" alt=""/>
+									<span class="new-box">
+										
+									</span>
+									<div class="shop_desc">
+										<h3><a href="#"><h3><font color=#ff5202>custom air force</a></h3>
+										
+										<span class="actual"><h3><font color=#ff5202>Da 5000</span><br>
+										<ul class="buttons">
+											
+										</ul>
+									</div>
+								</a></div>
+										<div class="col-md-3 shop_box">
+											<img src="images/131951839_398217638165056_4060527912456022180_n.jpg" class="img-responsive" alt=""/>
+											<span class="new-box">
+												
+											</span>
+											<div class="shop_desc">
+												<h3><a href="#"><h3><font color=#ff5202>custom naruto airforce</a></h3>
+												
+												<span class="actual"><h3><font color=#ff5202>Da 5000</span><br>
+												<ul class="buttons">
+												
+								</div>
+							</a></div>
+						</div>
+						<div class="row">
+							<div class="col-md-3 shop_box">
+								<img src="images/131560478_210106170810116_3778934862344893976_n.jpg" class="img-responsive" alt=""/>
+								<span class="new-box">
+													
+								</span>
+								<div class="shop_desc">
+									<h3><a href="#"><h3><font color=#ff5202>custom itachi airforce</a></h3>
+									
+									<span class="actual"><h3><font color=#ff5202>Da 5000</span><br>
+									<ul class="buttons">	
+
+									</ul>
+								</div>
+							</a></div>
+							<div class="col-md-3 shop_box">
+								<img src="images/125516440_2459846874318640_9159689835321122782_n.jpg" class="img-responsive" alt=""/>
+								<span class="new-box">
+									<span class="new-label">New</span>
+								</span>
+			
+								</span>
+								<div class="shop_desc">
+									<h3><a href="#"><h3><font color=#ff5202>full short kimonos</h3>
+									
+									<span class="actual"><h3><font color=#ff5202>Da 7400</span><br>
+									<ul class="buttons">
+										
+									</ul>
+								</div>
+							</a></div>
+							<div class="col-md-3 shop_box">
+								<img src="images/140048303_111189754267636_2031762765814930441_n.jpg" class="img-responsive" alt=""/>
+								</span>
+								<div class="shop_desc">
+									<h3><a href="#"><h3><font color=#ff5202>girls kimonos</a></h3>
+															
+									<span class="actual"><h3><font color=#ff5202>Da ?</span><br>
+</ul>
+</div>															
+</a></div>
+<div class="col-md-3 shop_box">
+<img src="images/139898385_221798746282531_4085025019457450580_n.jpg" class="img-responsive" alt=""/>
+<span class="new-box">
+<span class="new-label">New</span>
+</span>
+<div class="shop_desc">
+<h3><a href="#"><h3><font color=#ff5202>mans kimonos</a></h3>
+
+
+<span class="actual"><h3><font color=#ff5202>Da ?</span><br>
+<ul class="buttons">
+	
+</ul>
+</div>
+</a></div>
+</div>
+<div class="row">
+<div class="col-md-3 shop_box">
+<img src="images/139767464_731791901096696_5333967588656200932_n.jpg" class="img-responsive" alt=""/>
+<span class="new-box">
+
+</span>
+<div class="shop_desc">
+<h3><a href="#"><h3><font color=#ff5202>girls kimonos</a></h3>
+
+<span class="actual"><h3><font color=#ff5202>Da ?</span><br>
+<ul class="buttons">
+	
+</ul>
+</div>
+</a></div>
+<div class="col-md-3 shop_box">
+<img src="images/139851179_256580362498891_7162288287220654122_n.jpg" class="img-responsive" alt=""/>
+<span class="new-box">
+<span class="new-label">New</span>
+</span>
+
+</span>
+<div class="shop_desc">
+<h3><a href="#"><h3><font color=#ff5202>girls kimonos</a></h3>
+
+<span class="actual"><h3><font color=#ff5202>Da ?</span><br>
+<ul class="buttons">
+	
+</ul>
+</div>
+</a></div>
+<div class="col-md-3 shop_box">
+<img src="images/139870694_238337524456224_1660141139725088533_n (1).jpg" class="img-responsive" alt=""/>
+</span>
+<div class="shop_desc">
+<h3><a href="#"><h3><font color=#ff5202>naruto hoodies</a></h3>
+						
+<span class="actual"><h3><font color=#ff5202>Da 3300</span><br>
+
+</ul>
+</div>
+</a></div>
+<div class="col-md-3 shop_box">
+<img src="images/140028937_1040113476464764_4125756737170262685_n.jpg" class="img-responsive" alt=""/>
+
+</span>
+<div class="shop_desc">
+<h3><a href="#"><h3><font color=#ff5202>girls kimonos </a></h3>
+
+<span class="actual"><h3><font color=#ff5202>Da ?</span><br>
+
+
+</div>
+</a></div>
+</div>
+<div class="row">
+<div class="col-md-3 shop_box">
+<img src="images/140017154_126473465914465_5609350680680958543_n.jpg" class="img-responsive" alt=""/>
+<span class="new-box">
+
+</span>
+<div class="shop_desc">
+<h3><a href="#"><h3><font color=#ff5202>mans kimonos</a></h3>
+
+<span class="actual"><h3><font color=#ff5202>Da ?</span><br>
+<ul class="buttons">							 
+
+
+
+
+
+
+
+															  
+															</form>
+														</div>
+												   </div>
+												</div>
+											  </div>
+											 </div>
+										   </script>
+															</script>
+															<script type="text/javascript" src="js/jquery.flexisel.js"></script>
+															</div>
+														
+																
+																				   
+																			</ul>
+																		</div>
+																	</div>
+																	<div class="row footer_bottom">
+																		<div class="copy">
+																		   <p>© 2021 Template by <a href="https://www.instagram.com/zaki_not_found/" target="_blank">zaki_not_found</a></p>
+																		
+																				</ul>
+																			 </dd>
+																			 </dl>
+																	   </div>
+																</div>
+															</div>
+													</body>	
+													</html>
+
+

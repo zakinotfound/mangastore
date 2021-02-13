@@ -1,0 +1,829 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>manga jagers | figures</title>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<script src="js/jquery.min.js"></script>
+<script type="text/javascript">
+        $(document).ready(function() {
+            $(".dropdown img.flag").addClass("flagvisibility");
+
+            $(".dropdown dt a").click(function() {
+                $(".dropdown dd ul").toggle();
+            });
+                        
+            $(".dropdown dd ul li a").click(function() {
+                var text = $(this).html();
+                $(".dropdown dt a span").html(text);
+                $(".dropdown dd ul").hide();
+                $("#result").html("Selected value is: " + getSelectedValue("sample"));
+            });
+                        
+            function getSelectedValue(id) {
+                return $("#" + id).find("dt a span.value").html();
+            }
+
+            $(document).bind('click', function(e) {
+                var $clicked = $(e.target);
+                if (! $clicked.parents().hasClass("dropdown"))
+                    $(".dropdown dd ul").hide();
+            });
+
+
+            $("#flagSwitcher").click(function() {
+                $(".dropdown img.flag").toggleClass("flagvisibility");
+            });
+        });
+     </script>
+</head>
+<body>
+	<div class="header">
+		<div class="container">
+			<div class="row">
+			  <div class="col-md-12">
+				 <div class="header-left">
+					 <div class="logo">
+						<a href="index.html"><img src="images/home-5-64.png" width="50" height="50" alt=""/></a>
+					 </div>
+					 <div class="menu">
+						  <a class="toggleMenu" href="#"><img src="images/nav.png" alt="" /></a>
+						    <ul class="nav" id="nav">
+						    	<li><a href="shop.html">manga</a></li>
+						    	
+						    	<li class="current"><a href="team.html">figures</a></li>
+						    	<li><a href="experiance.html">clothing</a></li>
+						    	<li><a href="accessories.html">accessories</a></li>
+								<li><a href="contact.html">art supplies</a></li>								
+								<div class="clear"></div>
+							</ul>
+							<script type="text/javascript" src="js/responsive-nav.js"></script>
+				    </div>							
+	    		    <div class="clear"></div>
+	    	    </div>
+	            <div class="header_right">
+	    		  
+				  <div class="search-box">
+							<div id="sb-search" class="sb-search">
+								<form>
+									<input class="sb-search-input" placeholder="Enter your search term..." type="search" name="search" id="search">
+									<input class="sb-search-submit" type="submit" value="">
+									<span class="sb-icon-search"> </span>
+								</form>
+							</div>
+						</div>
+						
+						<script src="js/classie.js"></script>
+						<script src="js/uisearch.js"></script>
+						<script>
+							new UISearch( document.getElementById( 'sb-search' ) );
+						</script>
+				    
+						  </div>
+						   
+						  </div>
+						  <div class="clear"></div>
+						</ul>
+					 </li>
+				   </ul>
+		        <div class="clear"></div>
+	       </div>
+	      </div>
+		 </div>
+	    </div>
+	  </div>
+     <div class="main">
+      <div class="shop_top">
+		<div class="container">
+			<div class="row shop_box-top">
+				<div class="col-md-3 shop_box">
+					<img src="images/80469022_389553451861579_5663937528560888228_n.jpg" class="img-responsive" alt=""/>
+					<span class="new-box">
+						
+					</span>
+					<span class="sale-box">
+						
+					</span>
+					<div class="shop_desc">
+						<h3><a href="#"><h3><font color=#ff5202> Ryuk figure 15 cm tall</a></h3>
+						
+						
+						<span class="actual"><h3><font color=#ff5202>Da 2400</span><br>
+							
+					    </ul>
+				    </div>
+				</a></div>
+				<div class="col-md-3 shop_box">
+					<img src="images/79942168_850152752088217_7537512002262679385_n.jpg" class="img-responsive" alt=""/>
+					<span class="new-box">
+						
+					</span>
+					<div class="shop_desc">
+						<h3><a href="#"><h3><font color=#ff5202>One piece ships</a></h3>
+						
+						<span class="actual"><font color=#ff5202>Da 4900</span><br>
+						
+							
+					    </ul>
+				    </div>
+				</a></div>
+				<div class="col-md-3 shop_box">
+					<img src="images/momo.jpg" class="img-responsive" alt=""/>
+					<span class="new-box">
+					
+					</span>
+					
+						
+					</span>
+					<div class="shop_desc">
+						
+						
+							<h3><a href="#"><h3><font color=#ff5202>momosuke</a></h3>
+						
+							
+						
+						<span class="actual"><h3><font color=#ff5202>Da 2900</span><br>
+						<ul class="buttons">
+							 </div>
+					    </ul>
+				</a></div>
+				<div class="col-md-3 shop_box">
+					<img src="images/82305332_156826512291523_8723667064942872787_n.jpg" class="img-responsive" alt=""/>
+					<span class="new-box">
+						<span class="new-label">New</span>
+					</span>
+					<div class="shop_desc">
+						<h3><a href="#"><h3><font color=#ff5202>Dragon ball goku </a></h3>
+						
+						
+						<span class="actual"><h3><font color=#ff5202>Da 5200</span><br>
+						<ul class="buttons">
+							
+					    </ul>
+				    </div>
+				</a></div>
+			</div>
+			<div class="row">
+				<div class="col-md-3 shop_box">
+					<img src="images/81535034_186782195776608_1437422588629036947_n.jpg" class="img-responsive" alt=""/>
+					<span class="new-box">
+						
+					</span>
+					<div class="shop_desc">
+						<h3><a href="#"><h3><font color=#ff5202>Kimetsu no yaiba</a></h3>
+						
+						<span class="actual"><h3><font color=#ff5202>Da 2600</span><br>
+						<ul class="buttons">
+							
+					    </ul>
+				    </div>
+				</a></div>
+				<div class="col-md-3 shop_box">
+					<img src="images/80834062_3330945476979735_115309481310624870_n.jpg" class="img-responsive" alt=""/>
+					<span class="new-box">
+						<span class="new-label">New</span>
+					</span>
+
+					</span>
+					<div class="shop_desc">
+						<h3><a href="#"><h3><font color=#ff5202>katakuri</a></h3>
+						
+						<span class="actual"><h3><font color=#ff5202>Da 4500</span><br>
+						<ul class="buttons">
+							
+					    </ul>
+				    </div>
+				</a></div>
+				<div class="col-md-3 shop_box">
+					<img src="images/81474135_166435977923095_4045014728922979778_n.jpg" class="img-responsive" alt=""/>
+					</span>
+					<div class="shop_desc">
+						<h3><a href="#"><h3><font color=#ff5202>Love live</a></h3>
+												
+						<span class="actual"><h3><font color=#ff5202>Da 3000</span><br>
+						
+					    </ul>
+				    </div>
+				</a></div>
+				<div class="col-md-3 shop_box">
+					<img src="images/83271740_112005223496471_8906959827871110813_n.jpg"  class="img-responsive" alt=""/>
+					
+					</span>
+					<div class="shop_desc">
+						<h3><a href="#"><h3><font color=#ff5202>shinobo </a></h3>
+						
+						<span class="actual"><h3><font color=#ff5202>Da 4500</span><br>
+						
+						
+				    </div>
+				</a></div>
+			</div>
+			<div class="row">
+				<div class="col-md-3 shop_box">
+					<img src="images/82084965_176578837054052_4639001901412984078_n.jpg" class="img-responsive" alt=""/>
+					<span class="new-box">
+						
+					</span>
+					<div class="shop_desc">
+						<h3><a href="#"><h3><font color=#ff5202>luffy</a></h3>
+						
+						<span class="actual"><h3><font color=#ff5202>Da 4700-5200</span><br>
+						<ul class="buttons">	
+
+					
+					
+				        </ul>
+				    </div>
+				</a></div>
+						<div class="col-md-3 shop_box">
+							<img src="images/82561348_2678546952199373_3192251406873434104_n.jpg"  class="img-responsive" alt=""/>
+							<span class="new-box">
+								
+							</span>
+							<div class="shop_desc">
+								<h3><a href="#"><h3><font color=#ff5202>Monokuma </a></h3>
+								
+								<span class="actual"><h3><font color=#ff5202>Da 3700</span><br>
+								<ul class="buttons">
+									
+								</ul>
+							</div>
+						</a></div>
+								<div class="col-md-3 shop_box">
+									<img src="images/83117039_2553380378316734_1476644036179041808_n.jpg" class="img-responsive" alt=""/>
+									<span class="new-box">
+										
+									</span>
+									<div class="shop_desc">
+										<h3><a href="#"><h3><font color=#ff5202>vegeta</a></h3>
+										
+										<span class="actual"><h3><font color=#ff5202>Da 4900</span><br>
+										<ul class="buttons">
+											
+										</ul>
+									</div>
+								</a></div>
+										<div class="col-md-3 shop_box">
+											<img src="images/83274524_169040834504295_3869116260259089045_n.jpg" class="img-responsive" alt=""/>
+											<span class="new-box">
+												
+											</span>
+											<div class="shop_desc">
+												<h3><a href="#"><h3><font color=#ff5202>devil fruit</a></h3>
+												
+												<span class="actual"><h3><font color=#ff5202>Da 5800</span><br>
+												<ul class="buttons">
+												
+								</div>
+							</a></div>
+						</div>
+						<div class="row">
+							<div class="col-md-3 shop_box">
+								<img src="images/81836010_1014745235560384_8870770820637179350_n.jpg" class="img-responsive" alt=""/>
+								<span class="new-box">
+													
+								</span>
+								<div class="shop_desc">
+									<h3><a href="#"><h3><font color=#ff5202>corazon</a></h3>
+									
+									<span class="actual"><h3><font color=#ff5202>Da 3900</span><br>
+									<ul class="buttons">	
+
+								</ul>
+							</div>
+						</a></div>
+								<div class="col-md-3 shop_box">
+									<img src="images/81105493_152580272848942_2508675645067386380_n.jpg" class="img-responsive" alt=""/>
+									<span class="new-box">
+										
+									</span>
+									<div class="shop_desc">
+										<h3><a href="#"><h3><font color=#ff5202>yukino</a></h3>
+										
+										<span class="actual"><h3><font color=#ff5202>Da 2900</span><br>
+										<ul class="buttons">
+										</ul>
+									</div>
+								</a></div>
+										<div class="col-md-3 shop_box">
+											<img src="images/83874003_2062390747197520_1441105631663948287_n.jpg" class="img-responsive" alt=""/>
+											<span class="new-box">
+												
+											</span>
+											<div class="shop_desc">
+												<h3><a href="#"><h3><font color=#ff5202>One piece figures collection</a></h3>
+												
+												<span class="actual"><h3><font color=#ff5202>Da ?</span><br>
+												<ul class="buttons">
+													
+												</ul>
+											</div>
+										</a></div>
+												<div class="col-md-3 shop_box">
+													<img src="images/82341392_1256216154572954_2928552683946456974_n.jpg" class="img-responsive" alt=""/>
+													<span class="new-box">
+														
+													</span>
+													<div class="shop_desc">
+														<h3><a href="#"><h3><font color=#ff5202>Yagami light</a></h3>
+														
+														<span class="actual"><h3><font color=#ff5202>Da 5500</span><br>
+														<ul class="buttons">
+														
+														</div>
+													</a></div>
+												</div>
+												<div class="main">
+													<div class="shop_top">
+													  <div class="container">
+														  <div class="row shop_box-top">
+															  <div class="col-md-3 shop_box">
+																  <img src="images/83245255_789207978224363_3181289589976161659_n.jpg" class="img-responsive" alt=""/>
+																  <span class="new-box">
+																	  
+																  </span>
+																  <span class="sale-box">
+																	  
+																  </span>
+																  <div class="shop_desc">
+																	  <h3><a href="#"><h3><font color=#ff5202> sanji</a></h3>
+																	  
+																	  
+																	  <span class="actual"><h3><font color=#ff5202>Da 3800</span><br>
+																		  
+																	  </ul>
+																  </div>
+															  </a></div>
+															  <div class="col-md-3 shop_box">
+																  <img src="images/83100758_192630638483650_2334282948897270762_n.jpg" class="img-responsive" alt=""/>
+																  <span class="new-box">
+																	  
+																  </span>
+																  <div class="shop_desc">
+																	  <h3><a href="#"><h3><font color=#ff5202>Hatsune miku</a></h3>
+																	  
+																	  <span class="actual"><font color=#ff5202>Da 4900</span><br>
+																	  
+																		  
+																	  </ul>
+																  </div>
+															  </a></div>
+															  <div class="col-md-3 shop_box">
+																  <img src="images/84137901_102323324640813_5737568757009836074_n.jpg" class="img-responsive" alt=""/>
+																  <span class="new-box">
+																  
+																  </span>
+																	  
+																  </span>
+																  <div class="shop_desc">
+																  
+																		  <h3><a href="#"><h3><font color=#ff5202>Zero two</a></h3>
+
+																	  <span class="actual"><h3><font color=#ff5202>Da 3800</span><br>
+																	  <ul class="buttons">
+																		   </div>
+																	  </ul>
+															  </a></div>
+															  <div class="col-md-3 shop_box">
+																  <img src="images/eren_cg.jpg" width="200"  class="img-responsive" alt=""/>
+																  <span class="new-box">
+																	 
+																  </span>
+																  <div class="shop_desc">
+																	  <h3><a href="#"><h3><font color=#ff5202>Eren jäger</a></h3>
+																	  
+																	  
+																	  <span class="actual"><h3><font color=#ff5202>Da 4600</span><br>
+																	  <ul class="buttons">
+																		  
+																	  </ul>
+																  </div>
+															  </a></div>
+														  </div>
+														  <div class="row">
+															  <div class="col-md-3 shop_box">
+																  <img src="images/84974092_2506266576313794_8902737888046525341_n.jpg"  class="img-responsive" alt=""/>
+																  <span class="new-box">
+																	  
+																  </span>
+																  <div class="shop_desc">
+																	  <h3><a href="#"><h3><font color=#ff5202>Makise kurisu</a></h3>
+																	  
+																	  <span class="actual"><h3><font color=#ff5202>Da 6900</span><br>
+																	  <ul class="buttons">
+																		  
+																	  </ul>
+																  </div>
+															  </a></div>
+															  <div class="col-md-3 shop_box">
+																  <img src="images/84427241_301419080817936_1459785393394555711_n.jpg"  class="img-responsive" alt=""/>
+																  <span class="new-box">
+																	  <span class="new-label">New</span>
+																  </span>
+											  
+																  </span>
+																  <div class="shop_desc">
+																	  <h3><a href="#"><h3><font color=#ff5202>Sakurajima Mai </a></h3>
+																	  
+																	  <span class="actual"><h3><font color=#ff5202>Da 4600</span><br>
+																	  <ul class="buttons">
+																		  
+																	  </ul>
+																  </div>
+															  </a></div>
+															  <div class="col-md-3 shop_box">
+																  <img src="images/88259196_541024870142935_3537805166790149731_n.jpg"  class="img-responsive" alt=""/>
+																  </span>
+																  <div class="shop_desc">
+																	  <h3><a href="#"><h3><font color=#ff5202>Konosuba</a></h3>
+																							  
+																	  <span class="actual"><h3><font color=#ff5202>Da 4400</span><br>
+																	  
+																	  </ul>
+																  </div>
+															  </a></div>
+															  <div class="col-md-3 shop_box">
+																  <img src="images/90094433_223020642089502_8420162534891118553_n.jpg"  class="img-responsive" alt=""/>
+																  
+																  </span>
+																  <div class="shop_desc">
+																	  <h3><a href="#"><h3><font color=#ff5202>Miku nakano </a></h3>
+																	  
+																	  <span class="actual"><h3><font color=#ff5202>Da 4600</span><br>
+																	  
+																 
+															  </div>
+														  </a></div>
+													  </div>
+													  <div class="row">
+														  <div class="col-md-3 shop_box">
+															  <img src="images/104421500_107845094219492_3064641838997158533_n.jpg" class="img-responsive" alt=""/>
+															  <span class="new-box">
+																	  
+															  </span>
+															  <div class="shop_desc">
+																  <h3><a href="#"><h3><font color=#ff5202>hinata shoyu</a></h3>
+																	  
+																  <span class="actual"><h3><font color=#ff5202>Da 5800</span><br>
+																  <ul class="buttons">	
+																	
+																</ul>
+															</div>
+														</a></div>
+																<div class="col-md-3 shop_box">
+																	<img src="images/103730513_166107361586380_5704530987273723688_n.jpg" class="img-responsive" alt=""/>
+																	<span class="new-box">
+																		
+																	</span>
+																	<div class="shop_desc">
+																		<h3><a href="#"><h3><font color=#ff5202>rem</a></h3>
+																		
+																		<span class="actual"><h3><font color=#ff5202>Da 5300</span><br>
+																		<ul class="buttons">
+																			
+																		</ul>
+																	</div>
+																</a></div>
+																		<div class="col-md-3 shop_box">
+																			<img src="images/104482039_883905365424307_674198343129840117_n.jpg" class="img-responsive" alt=""/>
+																			<span class="new-box">
+																				
+																			</span>
+																			<div class="shop_desc">
+																				<h3><a href="#"><h3><font color=#ff5202>Small nezuko in box</a></h3>
+																				
+																				<span class="actual"><h3><font color=#ff5202>Da 4400</span><br>
+																				<ul class="buttons">
+																					
+																				</ul>
+																			</div>
+																		</a></div>
+																				<div class="col-md-3 shop_box">
+																					<img src="images/123994050_360159555068641_4131566071807840934_n.jpg" class="img-responsive" alt=""/>
+																					<span class="new-box">
+																						
+																					</span>
+																					<div class="shop_desc">
+																						<h3><a href="#"><h3><font color=#ff5202>one piece figures with LED</a></h3>
+																						
+																						<span class="actual"><h3><font color=#ff5202>Da 4500</span><br>
+																						<ul class="buttons">
+																						
+																		</div>
+																	</a></div>
+																</div>
+																<div class="row">
+																	<div class="col-md-3 shop_box">
+																		<img src="images/126466353_453520852715136_7271641005676228061_n.jpg" class="img-responsive" alt=""/>
+																		<span class="new-box">
+																							
+																		</span>
+																		<div class="shop_desc">
+																			<h3><a href="#"><h3><font color=#ff5202>naruto sage mode</a></h3>
+																			
+																			<span class="actual"><h3><font color=#ff5202>Da 9300</span><br>
+																			<ul class="buttons">	
+										
+																		</ul>
+																	</div>
+																</a></div>
+																		<div class="col-md-3 shop_box">
+																			<img src="images/128364478_1120822725015329_9143763131637823418_n.jpg" class="img-responsive" alt=""/>
+																			<span class="new-box">
+																				
+																			</span>
+																			<div class="shop_desc">
+																				<h3><a href="#"><h3><font color=#ff5202>Rem and ram</a></h3>
+																				
+																				<span class="actual"><h3><font color=#ff5202>Da 3300</span><br>
+																				<ul class="buttons">
+																				</ul>
+																			</div>
+																		</a></div>
+																				<div class="col-md-3 shop_box">
+																					<img src="images/138284603_263657405115229_2866871787156260900_n.jpg" class="img-responsive" alt=""/>
+																					<span class="new-box">
+																						
+																					</span>
+																					<div class="shop_desc">
+																						<h3><a href="#"><h3><font color=#ff5202>usopp</a></h3>
+																						
+																						<span class="actual"><h3><font color=#ff5202>Da 3200</span><br>
+																						<ul class="buttons">
+																						</ul>
+																					</div>
+																				</a></div>
+																						<div class="col-md-3 shop_box">
+																							<img src="images/download (2).jpg" class="img-responsive" alt=""/>
+																							<span class="new-box">
+																								
+																							</span>
+																							<div class="shop_desc">
+																								<h3><a href="#"><h3><font color=#ff5202>chopper</a></h3>
+																								
+																								<span class="actual"><h3><font color=#ff5202>Da 35800</span><br>
+																								<ul class="buttons">
+																								
+																				</div>
+																			</a></div>
+																		</div>
+																		<div class="row">
+																			<div class="col-md-3 shop_box">
+																				<img src="images/luffi.jpg" width="170" class="img-responsive" alt=""/>
+																				<span class="new-box">
+																									
+																				</span>
+																				<div class="shop_desc">
+																					<h3><a href="#"><h3><font color=#ff5202>luffy</a></h3>
+																					
+																					<span class="actual"><h3><font color=#ff5202>Da 4900</span><br>
+																					<ul class="buttons">	
+												
+																				</ul>
+																			</div>
+																		</a></div>
+																				<div class="col-md-3 shop_box">
+																					<img src="images/83117039_2553380378316734_1476644036179041808_n.jpg" class="img-responsive" alt=""/>
+																					<span class="new-box">
+																						
+																					</span>
+																					<div class="shop_desc">
+																						<h3><a href="#"><h3><font color=#ff5202>Vegeta final flash</a></h3>
+																						
+																						<span class="actual"><h3><font color=#ff5202>Da 4900</span><br>
+																						<ul class="buttons">
+																						</ul>
+																					</div>
+																				</a></div>
+																						<div class="col-md-3 shop_box">
+																							<img src="images/81803759_821466741610449_1582536724775932124_n.jpg" class="img-responsive" alt=""/>
+																							<span class="new-box">
+																								
+																							</span>
+																							<div class="shop_desc">
+																								<h3><a href="#"><h3><font color=#ff5202>luffy gear 4</a></h3>
+																								
+																								<span class="actual"><h3><font color=#ff5202>Da 5200</span><br>
+																								<ul class="buttons">
+																									
+																								</ul>
+																							</div>
+																						</a></div>
+																								<div class="col-md-3 shop_box">
+																									<img src="images/81617635_421431738568505_6403704414794850880_n.jpg" class="img-responsive" alt=""/>
+																									<span class="new-box">
+																										
+																									</span>
+																									<div class="shop_desc">
+																										<h3><a href="#"><h3><font color=#ff5202>nightmare luffy</a></h3>
+																										
+																										<span class="actual"><h3><font color=#ff5202>Da 5000</span><br>
+																										<ul class="buttons">
+																										
+																										</div>
+																									</a></div>
+																								</div>
+																								<div class="main">
+																									<div class="shop_top">
+																									  <div class="container">
+																										  <div class="row shop_box-top">
+																											  <div class="col-md-3 shop_box">
+																												  <img src="images/80764417_596102251233067_6243923398908570119_n.jpg" class="img-responsive" alt=""/>
+																												  <span class="new-box">
+																													  
+																												  </span>
+																												  <span class="sale-box">
+																													  
+																												  </span>
+																												  <div class="shop_desc">
+																													  <h3><a href="#"><h3><font color=#ff5202> Majin buu</a></h3>
+																													  
+																													  
+																													  <span class="actual"><h3><font color=#ff5202>Da 4500</span><br>
+																														  
+																													  </ul>
+																												  </div>
+																											  </a></div>
+																											  <div class="col-md-3 shop_box">
+																												  <img src="images/82436342_783433932068949_113377402921039360_n.jpg" class="img-responsive" alt=""/>
+																												  <span class="new-box">
+																													  
+																												  </span>
+																												  <div class="shop_desc">
+																													  <h3><a href="#"><h3><font color=#ff5202>Goku black</a></h3>
+																													  
+																													  <span class="actual"><font color=#ff5202>Da 3700</span><br>
+																													  
+																														  
+																													  </ul>
+																												  </div>
+																											  </a></div>
+																											  <div class="col-md-3 shop_box">
+																												  <img src="images/80014642_126139735188608_6167564400075281581_n.jpg" class="img-responsive" alt=""/>
+																												  <span class="new-box">
+																												  
+																												  </span>
+																													  
+																												  </span>
+																												  <div class="shop_desc">
+																												  
+																														  <h3><a href="#"><h3><font color=#ff5202>Goku and baradock</a></h3>
+												
+																													  <span class="actual"><h3><font color=#ff5202>Da 3000 for 1</span><br>
+																													  <ul class="buttons">
+																														   </div>
+																													  </ul>
+																											  </a></div>
+																											  <div class="col-md-3 shop_box">
+																												  <img src="images/kakachi.jpg"   class="img-responsive" alt=""/>
+																												  <span class="new-box">
+																													 
+																												  </span>
+																												  <div class="shop_desc">
+																													  <h3><a href="#"><h3><font color=#ff5202>Anbu Ninja Hatake Kakashi  </a></h3>
+																													  
+																													  
+																													  <span class="actual"><h3><font color=#ff5202>Da 3800</span><br>
+																													  <ul class="buttons">
+																														  
+																													  </ul>
+																												  </div>
+																											  </a></div>
+																										  </div>
+																										  <div class="row">
+																											  <div class="col-md-3 shop_box">
+																												  <img src="images/sagemode.jpg" width="200"  class="img-responsive" alt=""/>
+																												  <span class="new-box">
+																													  
+																												  </span>
+																												  <div class="shop_desc">
+																													  <h3><a href="#"><h3><font color=#ff5202>naruto rasengan </a></h3>
+																													  
+																													  <span class="actual"><h3><font color=#ff5202>Da 3900</span><br>
+																													  <ul class="buttons">
+																														  
+																													  </ul>
+																												  </div>
+																											  </a></div>
+																											  <div class="col-md-3 shop_box">
+																												  <img src="images/saaasoki.jpg"  class="img-responsive" alt=""/>
+																												  <span class="new-box">
+																													  <span class="new-label">New</span>
+																												  </span>
+																							  
+																												  </span>
+																												  <div class="shop_desc">
+																													  <h3><a href="#"><h3><font color=#ff5202>uchiha sasuke vibration stars </a></h3>
+																													  
+																													  <span class="actual"><h3><font color=#ff5202>Da 4700</span><br>
+																													  <ul class="buttons">
+																														  
+																													  </ul>
+																												  </div>
+																											  </a></div>
+																											  <div class="col-md-3 shop_box">
+																												  <img src="images/hanks.jpg"  class="img-responsive" alt=""/>
+																												  </span>
+																												  <div class="shop_desc">
+																													  <h3><a href="#"><h3><font color=#ff5202>luffy and shanks</a></h3>
+																																			  
+																													  <span class="actual"><h3><font color=#ff5202>Da 3900</span><br>
+																													  
+																													  </ul>
+																												  </div>
+																											  </a></div>
+																											  <div class="col-md-3 shop_box">
+																												  <img src="images/ziisto.jpg"  class="img-responsive" alt=""/>
+																												  
+																												  </span>
+																												  <div class="shop_desc">
+																													  <h3><a href="#"><h3><font color=#ff5202>zinetsu </a></h3>
+																													  
+																													  <span class="actual"><h3><font color=#ff5202>Da 2800</span><br>
+																													  
+																												 
+																											  </div>
+																										  </a></div>
+																									  </div>
+																									  <div class="row">
+																										  <div class="col-md-3 shop_box">
+																											  <img src="images/the techer guy fromboo.jpg" class="img-responsive" alt=""/>
+																											  <span class="new-box">
+																													  
+																											  </span>
+																											  <div class="shop_desc">
+																												  <h3><a href="#"><h3><font color=#ff5202>shota aizawa</a></h3>
+																													  
+																												  <span class="actual"><h3><font color=#ff5202>Da 3500</span><br>
+																												  <ul class="buttons">	
+																													
+																												</ul>
+																											</div>
+																										</a></div>
+																												<div class="col-md-3 shop_box">
+																													<img src="images/blue fireguy.jpg" class="img-responsive" alt=""/>
+																													<span class="new-box">
+																														
+																													</span>
+																													<div class="shop_desc">
+																														<h3><a href="#"><h3><font color=#ff5202>davi</a></h3>
+																														
+																														<span class="actual"><h3><font color=#ff5202>Da 3500</span><br>
+																														<ul class="buttons">
+																															
+																														</ul>
+																													</div>
+																												</a></div>
+																														<div class="col-md-3 shop_box">
+																															<img src="images/lmilyon.jpg" class="img-responsive" alt=""/>
+																															<span class="new-box">
+																																
+																															</span>
+																															<div class="shop_desc">
+																																<h3><a href="#"><h3><font color=#ff5202>Mirio Togata</a></h3>
+																																
+																																<span class="actual"><h3><font color=#ff5202>Da 3500</span><br>
+																																<ul class="buttons">
+																																	
+																																
+
+
+
+
+
+
+																						</form>
+																					</div>
+																			   </div>
+																			</div>
+																		  </div>
+																		 </div>
+																	   </script>			
+
+
+																																		</script>
+		<script type="text/javascript" src="js/jquery.flexisel.js"></script>
+		</div>
+	
+			
+		   					
+						</ul>
+					</div>
+				</div>
+				<div class="row footer_bottom">
+				    <div class="copy">
+			           <p>© 2021 Template by <a href="https://www.instagram.com/zaki_not_found/" target="_blank">zaki_not_found</a></p>
+		            
+				            </ul>
+				         </dd>
+	   				  </dl>
+   				</div>
+			</div>
+		</div>
+</body>	
+</html>
+																						
